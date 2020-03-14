@@ -12,7 +12,7 @@ services:
       context: . # Use an image built from the specified dockerfile in the current directory.
       dockerfile: Dockerfile
     ports:
-      - "8989:8989" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+      - "8989:8989" # Forward the exposed port 8989 on the container to port 8989 on the host machine
     restart: unless-stopped
     depends_on:
       - mysql # This service depends on mysql. Start that first.
@@ -23,7 +23,7 @@ services:
 
   # Mysql Service
   mysql:
-    image: "mysql:5.7" # Use a public Redis image to build the redis service
+    image: "mysql:5.7" # Use a public mysql image
     restart: always
     environment:
       MYSQL_DATABASE: 'go_project'
