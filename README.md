@@ -25,5 +25,8 @@ CREATE TABLE `users` (
 ```
 hit this Url to see the golang magic. -> http://localhost:8989/
 ```
+# Authentication Methods.
+1. Cookie-Based authentication
+2. OpenId
 
 
