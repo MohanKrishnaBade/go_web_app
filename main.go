@@ -22,7 +22,7 @@ func main() {
 	r.HandleFunc("/dashboard", index)
 	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./frontend/")))
 
-	fmt.Println(http.ListenAndServe(":8989", r))
+	fmt.Println(http.ListenAndServe(":80", r))
 }
 
 func index(w http.ResponseWriter, req *http.Request) {
