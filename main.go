@@ -7,6 +7,7 @@ import (
 	"github.com/go_web_app/tpl"
 	"github.com/go_web_app/Auth"
 	"github.com/go_web_app/models"
+	"github.com/go_web_app/Chat"
 )
 
 func init() {
@@ -19,6 +20,7 @@ func main() {
 	r := mux.NewRouter()
 
 	Auth.Routes(r)
+	Chat.Routes(r)
 	r.HandleFunc("/dashboard", index)
 	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./frontend/")))
 
