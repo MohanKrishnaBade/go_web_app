@@ -11,8 +11,8 @@ Dockerized golang web application.
 7. create a user table by running this Query 
 ```
 CREATE TABLE `users` (
-  `id` varchar(100) NOT NULL DEFAULT '',
-  `email` varchar(200) NOT NULL DEFAULT '',
+  `id` varchar(100) NOT NULL,
+  `email` varchar(200) NOT NULL,
   `firstName` varchar(200) DEFAULT NULL,
   `lastName` varchar(200) DEFAULT NULL,
   `picture` text NOT NULL,
