@@ -23,7 +23,7 @@ CREATE TABLE `users` (
 8 . you are all set, welcome to our golang world.
 #
 ```
-hit this Url to see the golang magic. -> http://localhost/
+hit this Url to see the home page. -> http://localhost/
 ```
 # Authentication Methods.
 1. Cookie-Based authentication
