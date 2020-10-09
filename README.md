@@ -27,7 +27,7 @@ hit this Url to see the login page. -> http://localhost/
 ```
 
 # .
-![Alt text](ex-images/login_image.png?raw=true "Title")
+![Alt text](ex-images/login_page.png?raw=true "Title")
 
 # Authentication Methods.
 1. Cookie-Based authentication
