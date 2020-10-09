@@ -21,12 +21,8 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT COLLATE utf8mb4_unicode_ci;
 ```
 8 . you are all set, welcome to our golang world.
-#
-```
-hit this Url to see the login page. -> http://localhost/
-```
 
-# .
+# hit http://localhost/ , you will see a login page
 ![Alt text](ex-images/login_page.png?raw=true "Title")
 
 # Authentication Methods.
