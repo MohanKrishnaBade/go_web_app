@@ -23,8 +23,12 @@ CREATE TABLE `users` (
 8 . you are all set, welcome to our golang world.
 #
 ```
-hit this Url to see the home page. -> http://localhost/
+hit this Url to see the login page. -> http://localhost/
 ```
+
+# .
+![Alt text](ex-images/login_image?raw=true "Title")
+
 # Authentication Methods.
 1. Cookie-Based authentication
 2. OpenId
